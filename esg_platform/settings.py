@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'answers',
     'ghg',
     'reports',
+    'department',
+    'company',
 ]
 
 MIDDLEWARE = [
