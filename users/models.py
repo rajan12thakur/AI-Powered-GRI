@@ -1,7 +1,7 @@
 import uuid
 
 from django.db import models
-from tenants.models import Company
+from company.models import Company
 
 
 class UserAccount(models.Model):
