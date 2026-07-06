@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'ghg',
     'reports',
     'department',
+    'company',
 ]
 
 MIDDLEWARE = [
