@@ -1,13 +1,13 @@
 import uuid
 
 from django.db import models
-from tenants.models import Company
+from company.models import Company
 
 
 class UserAccount(models.Model):
     class Status(models.TextChoices):
-        ACTIVE = "active", "Active"
-        INACTIVE = "inactive", "Inactive"
+         ACTIVE = "active", "Active"
+         INACTIVE = "inactive", "Inactive"
 
     id = models.UUIDField(
         primary_key=True,
