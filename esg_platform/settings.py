@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'reports',
     'department',
     'company',
+    # 'organization_units',
 ]
 
 MIDDLEWARE = [
