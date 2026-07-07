@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=100)),
                 ('description', models.TextField(blank=True, null=True)),
                 ('is_active', models.BooleanField(default=True)),
-                ('company', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='department', to='tenants.company')),
+                ('company', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='department', to='company.company')),
             ],
         ),
     ]
