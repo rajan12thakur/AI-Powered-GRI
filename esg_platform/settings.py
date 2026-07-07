@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'ghg',
     'reports',
     'department',
+    'company',
+    # 'organization_units',
 ]
 
 MIDDLEWARE = [
@@ -90,7 +92,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'esg_platform',
-        'USER': 'esg_user',
+        'USER': 'postgres',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
         'PORT': '5432',
